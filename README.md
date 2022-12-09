@@ -24,6 +24,7 @@ The application Areport is based on Laravel framework.
 
 ## Configuration
 To be able to upload large taxonomy package you need to set following parameters in
+
 ##### php.ini
 - max_execution_time = 6000
 - upload_max_filesize = 4000M
