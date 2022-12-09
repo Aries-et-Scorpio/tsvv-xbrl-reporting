@@ -22,7 +22,7 @@
         "begicf/areport-dpm-xbrl": "dev-master",
         "begicf/simple-menu": "dev-master",
         "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
+        "fruitcake/laravel-cors": "^3.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
