@@ -72,7 +72,7 @@
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
-                        <a  target="_blank" href="{{ url('https://github.com/begicf/areport') }}"><i class="fab fa-github"></i>GitHub</a>
+                        <a  target="_blank" href="{{ url('https://github.com/Aries-et-Scorpio/tsvv-xbrl-reporting') }}"><i class="fab fa-github"></i>GitHub</a>
                     @else
 
                         <a href="{{ route('login') }}">Login</a>
@@ -81,7 +81,7 @@
                             <a href="{{ route('register') }}">Register</a>
                         @endif
 
-                        <a target="_blank" href="{{ url('https://github.com/begicf/areport') }}"><i class="fab fa-github"></i>GitHub</a>
+                        <a target="_blank" href="{{ url('https://github.com/Aries-et-Scorpio/tsvv-xbrl-reporting') }}"><i class="fab fa-github"></i>GitHub</a>
                     @endauth
                 </div>
             @endif
@@ -90,7 +90,7 @@
 
                 <div class="title m-b-md">
 
-                    <img width="225px" src="{{asset('images/logo.svg')}}" alt="areport">
+                    <img width="225px" src="{{asset('images/logo.svg')}}" alt="ts-vv-logo">
 
                 </div>
 
