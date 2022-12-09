@@ -22,10 +22,6 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Migrate database
-        run: |
-          php artisan migrate:fresh --seed
-
       - name: Install composer dependencies
         run: |
           composer install --no-scripts
