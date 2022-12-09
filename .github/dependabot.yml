@@ -7,13 +7,13 @@ updates:
     labels:
       - "dependencies"
 
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
     labels:
-      - "yarn"
+      - "npm"
       - "dependencies"
 
   - package-ecosystem: "composer"
