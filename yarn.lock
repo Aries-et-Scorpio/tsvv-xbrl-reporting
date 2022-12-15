@@ -2189,7 +2189,7 @@ bootstrap-select@^1.13.17:
   resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.18.tgz#4557119d58dc1159189977161c803962220e4dda"
   integrity sha512-V1IzK4rxBq5FrJtkzSH6RmFLFBsjx50byFbfAf8jYyXROWs7ZpprGjdHeoyq2HSsHyjJhMMwjsQhRoYAfxCGow==
 
-bootstrap-table@^1.21.0:
+bootstrap-table@^1.21.2:
   version "1.21.2"
   resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.21.2.tgz#35472abd687840068d1c55b8d656117b6c6170e8"
   integrity sha512-VVXiVI19PwR0Taq0N9jOaNCBnxIKsfnlcdaK8/jJBmK23cqor9NhtqH8MJ/UysSEt1sFv+p8yi1DZWHadtVdoQ==
@@ -5213,15 +5213,10 @@ jquery-ui@^1.13.2:
   dependencies:
     jquery ">=1.8.0 <4.0.0"
 
-jquery@>=1.7, jquery@>=1.9.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
-  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
-
-"jquery@>=1.8.0 <4.0.0", jquery@^3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
-  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
+jquery@>=1.7, "jquery@>=1.8.0 <4.0.0", jquery@>=1.9.1, jquery@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.2.tgz#8302bbc9160646f507bdf59d136a478b312783c4"
+  integrity sha512-/e7ulNIEEYk1Z/l4X0vpxGt+B/dNsV8ghOPAWZaJs8pkGvsSC0tm33aMGylXcj/U7y4IcvwtMXPMyBFZn/gK9A==
 
 js-tokens@^4.0.0:
   version "4.0.0"
