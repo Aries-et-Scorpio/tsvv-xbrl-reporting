@@ -23,7 +23,7 @@
                         <small class="form-text text-muted"><span class="text-danger">*</span> Only *.zip</small>
                     </div>
 
-                    <button class="btn btn-primary float-right" {{env('UPLOAD')?"":"disabled"}}
+                    <button class="btn btn-primary float-right"
                         onclick="uploadTaxonomy()" type="button">Upload
                     </button>
                 </form>
