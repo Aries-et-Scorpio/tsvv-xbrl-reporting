@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  database:
+    image: postgres:15.1
+    container_name: xblr-reporting-postgresql
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=Pa55w0rd
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U app" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: xblr-reporting-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@pgadmin4.org
+      PGADMIN_DEFAULT_PASSWORD: Pa55w0rd
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - database
+    ports:
+      - "5050:80"
+
+volumes:
+  postgres_data:
+    driver: local
+  pgadmin_data:
+    driver: local
