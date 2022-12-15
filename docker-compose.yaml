@@ -5,8 +5,8 @@ services:
     container_name: xblr-reporting-postgresql
     restart: always
     environment:
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=Pa55w0rd
+      - POSTGRES_USER=${DB_USERNAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -20,8 +20,8 @@ services:
     image: dpage/pgadmin4
     container_name: xblr-reporting-pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: pgadmin@pgadmin4.org
-      PGADMIN_DEFAULT_PASSWORD: Pa55w0rd
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
     volumes:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
