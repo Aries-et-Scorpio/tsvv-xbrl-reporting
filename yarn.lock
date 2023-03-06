@@ -2189,10 +2189,10 @@ bootstrap-select@^1.13.17:
   resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.18.tgz#4557119d58dc1159189977161c803962220e4dda"
   integrity sha512-V1IzK4rxBq5FrJtkzSH6RmFLFBsjx50byFbfAf8jYyXROWs7ZpprGjdHeoyq2HSsHyjJhMMwjsQhRoYAfxCGow==
 
-bootstrap-table@^1.21.2:
-  version "1.21.2"
-  resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.21.2.tgz#35472abd687840068d1c55b8d656117b6c6170e8"
-  integrity sha512-VVXiVI19PwR0Taq0N9jOaNCBnxIKsfnlcdaK8/jJBmK23cqor9NhtqH8MJ/UysSEt1sFv+p8yi1DZWHadtVdoQ==
+bootstrap-table@^1.21.3:
+  version "1.21.3"
+  resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.21.3.tgz#5ac1f8310c6c3878f5d357ad2863c96091f7a055"
+  integrity sha512-y6PLHxJJVqIVXoMWrnwPsA8dKqvy9An8Iz7WuuimuLU1i0jIT9+Xzg6NXqBBilHOwp0dUAw9vfgNLvCVq2wdJQ==
 
 bootstrap@^5.2.3:
   version "5.2.3"
